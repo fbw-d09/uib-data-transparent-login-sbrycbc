@@ -5,12 +5,13 @@
 
 body {
     background-image: url(./natur.png);
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-image:linear-gradient(to bottom right grey, darkgrey);
     filter:brightness(70%);
 }
@@ -57,11 +58,12 @@ i {
 
 }
 input[type="submit"] {
-    width: 250px;
+    width: 270px;
     height: 35px;
     border: 3px solid green;
     border-radius: 5px;
     background-color: transparent;
+    text-align: center;
     color: white;
     font-size: 1.2rem;
 }
