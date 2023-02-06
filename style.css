@@ -10,16 +10,20 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to bottom right grey, darkgrey);
+    filter:brightness(70%);
 
 }
 
 
 main {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 1.6rem;
     font-family: sans-serif;
-    background-color: rgb(107, 189, 189,0.1);
+    /* background-color: rgb(107, 189, 189,0.1); */
     height: 270px;
+
 }
 
 
@@ -43,8 +47,8 @@ input[type="password"] {
 
 i {
     color: white;
-    font-size: 1.1rem;
-    border-bottom: 4px solid green;
+    font-size: 1.2rem;
+    border-bottom: 5px solid green;
 }
 
 
