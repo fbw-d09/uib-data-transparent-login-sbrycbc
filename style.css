@@ -1,0 +1,69 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+body {
+    background-image: url(./natur.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:linear-gradient(to bottom right grey, darkgrey);
+    filter:brightness(70%);
+}
+
+
+main {
+    padding: 50px;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    /* background-color: rgb(107, 189, 189,0.1); */
+    /* height: 270px; */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+}
+
+
+legend {
+    text-align: center;
+    border-bottom: 4px solid green;
+    color:whitesmoke;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid green;
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 350px;
+    background-color: transparent;
+}
+
+i {
+    color: white;
+    font-size: 1.2rem;
+    border-bottom: 5px solid green;
+}
+
+
+::placeholder {
+    font-size:1rem;
+    color: white;
+
+}
+input[type="submit"] {
+    width: 370px;
+    height: 35px;
+    border: 3px solid green;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
