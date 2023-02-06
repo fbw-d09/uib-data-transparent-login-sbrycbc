@@ -1,7 +1,7 @@
 * { 
-box-sizing: border-box;
-margin: 0;
-padding: 0;}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
 
 body {
     background-image: url(./natur.png);
@@ -13,7 +13,6 @@ body {
     align-items: center;
     background-image:linear-gradient(to bottom right grey, darkgrey);
     filter:brightness(70%);
-
 }
 
 
@@ -23,14 +22,14 @@ main {
     font-family: sans-serif;
     /* background-color: rgb(107, 189, 189,0.1); */
     height: 270px;
-
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
 }
 
 
 legend {
     text-align: center;
     border-bottom: 4px solid green;
-    color: white;
+    color:whitesmoke;
 }
 
 input[type="email"],
