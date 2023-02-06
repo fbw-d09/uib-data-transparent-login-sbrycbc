@@ -21,7 +21,7 @@ main {
     font-size: 1.6rem;
     font-family: sans-serif;
     /* background-color: rgb(107, 189, 189,0.1); */
-    height: 270px;
+    /* height: 270px; */
     background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
 }
 
